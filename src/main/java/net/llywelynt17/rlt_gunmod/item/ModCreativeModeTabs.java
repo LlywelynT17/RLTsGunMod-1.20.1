@@ -13,13 +13,14 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RLT_GunMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> GUNMODAMMO_TAB = CREATIVE_MODE_TABS.register("gunmodammo_tab",
+    public static final RegistryObject<CreativeModeTab> GUNMOD_TAB = CREATIVE_MODE_TABS.register("gunmod_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AMMO280.get()))
-                    .title(Component.translatable("creativetab.gunmodeammo_tab"))
+                    .title(Component.translatable("creativetab.gunmod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.
+                        output.accept(ModItems.AMMO280.get());
+                        output.accept(ModItems.AMMO303.get());
                     })
-                    .build())
+                    .build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
