@@ -17,6 +17,18 @@ public class ModItems {
     public static final RegistryObject<Item> AMMO303 = ITEMS.register("ammo303",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BRASSINGOT = ITEMS.register("brassingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAWBRASS = ITEMS.register("rawbrass",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAWNCASE = ITEMS.register("drawncase",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PRIMER = ITEMS.register("primer",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

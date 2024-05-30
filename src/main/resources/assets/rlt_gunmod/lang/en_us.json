@@ -1,10 +1,15 @@
 {
-  "item.rlt_gunmod.ammo280" : ".280 Ammo",
-  "item.rlt_gunmod.ammo303" : ".303 Ammo",
+  "item.rlt_gunmod.ammo280": ".280 Ammo",
+  "item.rlt_gunmod.ammo303": ".303 Ammo",
+  "item.rlt_gunmod.brassingot": "Brass Ingot",
+  "item.rlt_gunmod.rawbrass": "Raw Brass",
+  "item.rlt_gunmod.primer": "Cartridge Primer",
+  "item.rlt_gunmod.drawncase": "Drawn Case",
 
 
 
+  "block.rlt_gunmod.brassore_block": "Brass Ore",
 
-
-  "creativetab.gunmod_tab" : "RLT's Gun Mod"
+  "creativetab.gunmod_tab": "RLT's Gun Mod",
+  "creativetab.gunmodingredients_tab": "RLT's Gun Mod Ingredients"
 }
