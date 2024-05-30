@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rlt_gunmod:brass_block"
+    }
+  ],
+  "result": {
+    "item": "rlt_gunmod:brassingot",
+    "count": 9
+  }
+}

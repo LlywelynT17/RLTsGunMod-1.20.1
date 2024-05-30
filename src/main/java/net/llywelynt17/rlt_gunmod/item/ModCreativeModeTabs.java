@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BRASSORE_BLOCK.get());
                         output.accept(ModItems.RAWBRASS.get());
                         output.accept(ModItems.BRASSINGOT.get());
+                        output.accept(ModBlocks.BRASS_BLOCK.get());
                         output.accept(ModItems.DRAWNCASE.get());
                         output.accept(ModItems.PRIMER.get());
                     })
