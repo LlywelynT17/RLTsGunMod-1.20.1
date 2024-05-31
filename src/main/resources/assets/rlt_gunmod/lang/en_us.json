@@ -1,6 +1,10 @@
 {
+  "item.rlt_gunmod.ammo9mm": "9x19mm Ammo",
+  "item.rlt_gunmod.ammo455": ".455 Webley Ammo",
   "item.rlt_gunmod.ammo280": ".280 Ammo",
   "item.rlt_gunmod.ammo303": ".303 Ammo",
+  "item.rlt_gunmod.ammo762": "7.62x51mm NATO Ammo",
+  "item.rlt_gunmod.ammo792": "7.92x57mm Ammo",
   "item.rlt_gunmod.brassingot": "Brass Ingot",
   "item.rlt_gunmod.rawbrass": "Raw Brass",
   "item.rlt_gunmod.primer": "Cartridge Primer",
@@ -10,6 +14,8 @@
 
   "block.rlt_gunmod.brassore_block": "Brass Ore",
   "block.rlt_gunmod.brass_block": "Block of Brass",
+  "block.rlt_gunmod.leadore_block": "Lead Ore",
+  "block.rlt_gunmod.lead_block": "Block of Lead",
 
   "creativetab.gunmod_tab": "RLT's Gun Mod",
   "creativetab.gunmodingredients_tab": "RLT's Gun Mod Ingredients"

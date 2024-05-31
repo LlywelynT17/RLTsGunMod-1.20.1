@@ -24,6 +24,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRASS_BLOCK = registerBlock("brass_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> LEADORE_BLOCK = registerBlock("leadore_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)));
+
+    public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

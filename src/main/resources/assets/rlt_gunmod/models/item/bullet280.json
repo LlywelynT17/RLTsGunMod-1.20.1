@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rlt_gunmod:item/bullet280"
+  }
+}

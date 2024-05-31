@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rlt_gunmod:leadmetal"
+    }
+  },
+  "result": {
+    "item": "rlt_gunmod:lead_block",
+    "count": 1
+  }
+}

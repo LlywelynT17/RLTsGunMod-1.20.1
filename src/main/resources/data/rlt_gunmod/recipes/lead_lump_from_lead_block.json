@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rlt_gunmod:lead_block"
+    }
+  ],
+  "result": {
+    "item": "rlt_gunmod:leadmetal",
+    "count": 9
+  }
+}

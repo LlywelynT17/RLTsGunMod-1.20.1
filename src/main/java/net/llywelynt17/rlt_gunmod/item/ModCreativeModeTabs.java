@@ -18,8 +18,12 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AMMO280.get()))
                     .title(Component.translatable("creativetab.gunmod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.AMMO9MM.get());
+                        output.accept(ModItems.AMMO455.get());
                         output.accept(ModItems.AMMO280.get());
                         output.accept(ModItems.AMMO303.get());
+                        output.accept(ModItems.AMMO762.get());
+                        output.accept(ModItems.AMMO792.get());
                     })
                     .build());
 
@@ -33,6 +37,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BRASS_BLOCK.get());
                         output.accept(ModItems.DRAWNCASE.get());
                         output.accept(ModItems.PRIMER.get());
+                        output.accept(ModBlocks.LEADORE_BLOCK.get());
+                        output.accept(ModItems.LEADMETAL.get());
+                        output.accept(ModBlocks.LEAD_BLOCK.get());
                     })
                     .build());
 
