@@ -7,8 +7,15 @@
   "item.rlt_gunmod.ammo792": "7.92x57mm Ammo",
   "item.rlt_gunmod.brassingot": "Brass Ingot",
   "item.rlt_gunmod.rawbrass": "Raw Brass",
+  "item.rlt_gunmod.leadmetal": "Lump of Lead",
   "item.rlt_gunmod.primer": "Cartridge Primer",
   "item.rlt_gunmod.drawncase": "Drawn Case",
+  "item.rlt_gunmod.bullet9mm": "9mm Bullet",
+  "item.rlt_gunmod.bullet455": ".455 Bullet",
+  "item.rlt_gunmod.bullet280": ".280 Bullet",
+  "item.rlt_gunmod.bullet303": ".303 Bullet",
+  "item.rlt_gunmod.bullet762": "7.62mm Bullet",
+  "item.rlt_gunmod.bullet792": "7.92mm Bullet",
 
 
 
