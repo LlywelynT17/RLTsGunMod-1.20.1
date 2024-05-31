@@ -40,6 +40,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LEADORE_BLOCK.get());
                         output.accept(ModItems.LEADMETAL.get());
                         output.accept(ModBlocks.LEAD_BLOCK.get());
+                        output.accept(ModItems.BULLET9MM.get());
+                        output.accept(ModItems.BULLET455.get());
+                        output.accept(ModItems.BULLET280.get());
+                        output.accept(ModItems.BULLET303.get());
+                        output.accept(ModItems.BULLET762.get());
+                        output.accept(ModItems.BULLET792.get());
                     })
                     .build());
 
